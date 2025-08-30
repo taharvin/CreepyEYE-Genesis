@@ -1,4 +1,4 @@
-🇺🇸 [Українська версія](README_ua.md)
+🇺🇦 [Українська версія](README_ua.md)
 
 # CreepyEYE Genesis
 ![CreepyEYE Genesis](./PNG/CE_genesis.png)
