@@ -16,6 +16,7 @@
 
 🔎 Перевірка існування псевдоніму у соцмережах:  
 &nbsp;&nbsp;&nbsp;&nbsp;`GitHub`, `Twitter`, `Instagram`, `TikTok`, `Facebook`, `GitLab`, `Bitbucket`, `Reddit`, `Twitch`, `StackOverflow`, `Kaggle`, `Medium`, `SoundCloud`, `Spotify`
+
 📧 Перевірка email:  
 &nbsp;&nbsp;&nbsp;&nbsp;через `Hunter.io`, `EmailRep.io`, `SpiderFoot`  
 🌐 IP/домен перевірка:  
