@@ -1,6 +1,10 @@
 🇺🇦 [Українська версія](README_ua.md)
 
 # CreepyEYE Genesis
+
+![License: MIT](https://img.shields.io/badge/license-MIT-green)  ![Status: Alpha](https://img.shields.io/badge/status-alpha-orange)  ![Python](https://img.shields.io/badge/python-3.8%2B-blue) ![OS](https://img.shields.io/badge/OS-Windows%20|%20Linux%20|%20Mac-lightgrey)
+
+
 ![CreepyEYE Genesis](./PNG/CE_genesis.png)
 
 ## ⚠️ IMPORTANT!
@@ -81,19 +85,20 @@ Open the file and insert your keys:
 - EMAILREP_API_KEY  
 - WHOIS_API_KEY  
 
-### Where to get API keys
+### Where to get API keys & their usage
 
-| Service        | API Key URL                               |
-|----------------|-------------------------------------------|
-| Shodan         | https://www.shodan.io/                    |
-| IPinfo         | https://ipinfo.io/                        |
-| AbuseIPDB      | https://www.abuseipdb.com/                |
-| Hunter.io      | https://hunter.io/                        |
-| Numverify      | https://numverify.com/                    |
-| GreyNoise      | https://api.greynoise.io/                 |
-| EmailRep.io    | https://emailrep.io/                      |
-| WhoisXML API   | https://whoisxmlapi.com/                  |
-| VirusTotal     | https://www.virustotal.com/               |
+| Service        | API Key URL                               | Purpose                                           |
+|----------------|-------------------------------------------|--------------------------------------------------|
+| Shodan         | https://www.shodan.io/                    | Scan IPs, devices, open ports                    |
+| IPinfo         | https://ipinfo.io/                        | Lookup IP geolocation and ASN info              |
+| AbuseIPDB      | https://www.abuseipdb.com/                | Check if IP is reported for malicious activity  |
+| Hunter.io      | https://hunter.io/                        | Email verification and domain search            |
+| Numverify      | https://numverify.com/                     | Phone number validation                          |
+| GreyNoise      | https://api.greynoise.io/                 | Context on internet scanners / bots             |
+| EmailRep.io    | https://emailrep.io/                       | Reputation check of email addresses             |
+| WhoisXML API   | https://whoisxmlapi.com/                  | WHOIS data and domain info                        |
+| VirusTotal     | https://www.virustotal.com/               | Scan IPs, domains, and files for malware        |
+
 
 ---
 
@@ -108,13 +113,6 @@ The program automatically detects if Tor is running and uses it for requests.
 
 This tool is intended for ethical OSINT only.  
 Use responsibly and within the law.
-
----
-
-## License
-
-[MIT License](LICENSE)
-
 
 ---
 
