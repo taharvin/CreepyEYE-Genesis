@@ -40,8 +40,8 @@ Not all APIs have been fully tested yet. Use with caution.
 
 3. **Clone the repository**  
    ```sh
-   git clone <your_repo_URL>
-   cd "CreepyEYE Genesis"
+   git clone https://github.com/CreepyHunterX/CreepyEYE-Genesis.git
+   cd "CreepyEYE-Genesis"
    ```
 
 4. **Install dependencies**  
@@ -119,8 +119,6 @@ Use responsibly and within the law.
 ---
 
 ## 🧠 CreepyEYE PRO (Development Roadmap)
-
-![CreepyEYE PRO](./Creepyeye_pro_banner.png)
 
 > 🔥 *CreepyEYE PRO* is a ⚡ **premium version** of our OSINT tool with over **30 integrated APIs**,  
 > enabling deep searches, link mapping, encrypted session storage, and more.  
