@@ -1,6 +1,8 @@
 🇺🇸 [English version](README.md)  
 
 # CreepyEYE Genesis
+![License: MIT](https://img.shields.io/badge/license-MIT-green)  ![Status: Alpha](https://img.shields.io/badge/status-alpha-orange)  ![Python](https://img.shields.io/badge/python-3.8%2B-blue) ![OS](https://img.shields.io/badge/OS-Windows%20|%20Linux%20|%20Mac-lightgrey)
+
 ![CreepyEYE Genesis](./PNG/CE_genesis_ua.png)
 
 ## ⚠️ ВАЖЛИВО!
@@ -81,19 +83,20 @@
 - EMAILREP_API_KEY
 - WHOIS_API_KEY
 
-## Де отримати ключі
+### Де отримати API ключі та для чого вони потрібні
 
-| Сервіс         | Посилання для отримання API ключа              |
-|----------------|------------------------------------------------|
-| Shodan         | https://www.shodan.io/                         |
-| IPinfo         | https://ipinfo.io/                             |
-| AbuseIPDB      | https://www.abuseipdb.com/                     |
-| Hunter.io      | https://hunter.io/                             |
-| Numverify      | https://numverify.com/                         |
-| GreyNoise      | https://api.greynoise.io/                      |
-| EmailRep.io    | https://emailrep.io/                           |
-| WhoisXML API   | https://whoisxmlapi.com/                       |
-| VirusTotal     | https://www.virustotal.com/                    |
+| Сервіс        | URL для ключа                             | Призначення                                     |
+|---------------|-------------------------------------------|------------------------------------------------|
+| Shodan        | https://www.shodan.io/                    | Сканування IP, пристроїв, відкритих портів     |
+| IPinfo        | https://ipinfo.io/                        | Геолокація IP та інформація про ASN            |
+| AbuseIPDB     | https://www.abuseipdb.com/                | Перевірка, чи повідомляли про зловмисну активність IP |
+| Hunter.io     | https://hunter.io/                        | Перевірка email та пошук по домену            |
+| Numverify     | https://numverify.com/                     | Валідація телефонних номерів                   |
+| GreyNoise     | https://api.greynoise.io/                 | Інформація про сканери та ботів в мережі      |
+| EmailRep.io   | https://emailrep.io/                       | Перевірка репутації email адрес                |
+| WhoisXML API  | https://whoisxmlapi.com/                  | Дані WHOIS та інформація про домени            |
+| VirusTotal    | https://www.virustotal.com/               | Перевірка IP, доменів та файлів на шкідливе ПЗ |
+
 
 ---
 
