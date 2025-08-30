@@ -16,6 +16,7 @@ Not all APIs have been fully tested yet. Use with caution.
 
 🔎 Username existence check across social media platforms:  
 &nbsp;&nbsp;&nbsp;&nbsp;`GitHub`, `Twitter`, `Instagram`, `TikTok`, `Facebook`, `GitLab`, `Bitbucket`, `Reddit`, `Twitch`, `StackOverflow`, `Kaggle`, `Medium`, `SoundCloud`, `Spotify`
+
 📧 Email verification:  
 &nbsp;&nbsp;&nbsp;&nbsp;via `Hunter.io`, `EmailRep.io`, `SpiderFoot`  
 🌐 IP/domain lookup:  
