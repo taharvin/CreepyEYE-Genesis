@@ -28,5 +28,3 @@
 
 * Use third-party APIs according to their terms of service
 * CreepyEYE itself is licensed under MIT License
-
----
