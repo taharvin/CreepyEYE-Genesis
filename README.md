@@ -1,7 +1,9 @@
 # CreepyEYE Genesis
 
-[![🇺🇦 Українська версія](https://img.shields.io/badge/Language-Українська-blue)](README_ua.md)  
-![License: MIT](https://img.shields.io/badge/license-MIT-green)  ![Status: Alpha](https://img.shields.io/badge/status-alpha-orange)  ![Python](https://img.shields.io/badge/python-3.8%2B-blue)  ![OS](https://img.shields.io/badge/OS-Windows%20|%20Linux%20|%20Mac-lightgrey)
+[![🇺🇦 Українська версія](https://img.shields.io/badge/Мова-Українська-blue)](README_ua.md)  [![🇬🇧 English version](https://img.shields.io/badge/Language-English-lightgrey)](README.md)    
+
+![License: MIT](https://img.shields.io/badge/license-MIT-green)  ![Status: Alpha](https://img.shields.io/badge/status-alpha-orange)  ![Python](https://img.shields.io/badge/python-3.8%2B-blue) ![OS](https://img.shields.io/badge/OS-Windows%20|%20Linux%20|%20Mac-lightgrey)
+&nbsp;&nbsp;&nbsp;&nbsp;
 
 ![CreepyEYE Genesis](./PNG/CE_genesis.png)
 
