@@ -1,0 +1,4 @@
+requests
+termcolor
+python-dotenv
+rich
