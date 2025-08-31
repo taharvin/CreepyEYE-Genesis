@@ -3,7 +3,11 @@
 ![License: MIT](https://img.shields.io/badge/license-MIT-green)  ![Status: Alpha](https://img.shields.io/badge/status-alpha-orange)  ![Python](https://img.shields.io/badge/python-3.8%2B-blue) ![OS](https://img.shields.io/badge/OS-Windows%20|%20Linux%20|%20Mac-lightgrey)
 &nbsp;&nbsp;&nbsp;&nbsp;
 
-![CreepyEYE Genesis](./PNG/CE_genesis.png)
+| Windows | Linux |
+|---------|-------|
+| ![CE Win](./PNG/CE_Windows.png) | ![CE Linux](./PNG/CE_Linux.png) |
+
+
 
 ## ⚠️ IMPORTANT!
 **CreepyEYE Genesis** is an OSINT (Open Source Intelligence) tool that helps you search information by username, email, IP, phone number, Telegram, and other parameters across various services.  
@@ -27,6 +31,16 @@ Not all APIs have been fully tested yet. Use with caution.
 🧅 Tor support for anonymity  
 🈯 Language selection menu (`Ukrainian` / `English`)  
 ⚙️ Automatic dependency installation
+
+---
+
+## Example Screenshots — Multilingual
+
+| Language | Windows | Linux |
+|----------|---------|-------|
+| English  | ![CE Win](./PNG/CE_Windows.png) | ![CE Linux](./PNG/CE_Linux.png) |
+| Ukrainian | ![CE Win UA](./PNG/CE_Windows_ua.png) | ![CE Linux UA](./PNG/CE_Linux_ua.png) |
+| Russian  | ![CE Win RU](./PNG/CE_Windows_ru.png) | ![CE Linux RU](./PNG/CE_Linux_ru.png) |
 
 ---
 
