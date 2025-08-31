@@ -1,6 +1,7 @@
 # CreepyEYE Genesis
 
-[![🇬🇧 English version](https://img.shields.io/badge/Documentation-English-lightgrey)](README.md) [![Руская версия](https://img.shields.io/badge/Документация-Русская-red)](README_ru.md)
+Інші мови:
+
 
 ![License: MIT](https://img.shields.io/badge/license-MIT-green)  ![Status: Alpha](https://img.shields.io/badge/status-alpha-orange)  ![Python](https://img.shields.io/badge/python-3.8%2B-blue) ![OS](https://img.shields.io/badge/OS-Windows%20|%20Linux%20|%20Mac-lightgrey)
 &nbsp;&nbsp;&nbsp;&nbsp;
@@ -154,5 +155,11 @@
 | Телефони         | `Numverify`, `PhoneInfoga` та інші    |
 
 > ⚠️ Повний список API буде опублікований ближче до релізу.
+
+---
+
+### Доступні переклади / Available translations / Доступные переводы
+
+[![🇬🇧 English version](https://img.shields.io/badge/Documentation-English-lightgrey)](README.md) [![Руская версия](https://img.shields.io/badge/Документация-Русская-red)](README_ru.md)
 
 ---

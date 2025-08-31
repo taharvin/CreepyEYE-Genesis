@@ -1,5 +1,3 @@
-[![🇺🇦 Українська версія](https://img.shields.io/badge/Документація-Українська-blue)](SECURITY_ua.md) [![Руская версия](https://img.shields.io/badge/Документация-Русская-red)](SECURITY_ru.md)
-
 ## Security & Responsible Use Policy
 
 **CreepyEYE Genesis** is intended for **ethical OSINT purposes only**. By using this tool, you agree to the following:
@@ -30,3 +28,10 @@
 
 * Use third-party APIs according to their terms of service
 * CreepyEYE itself is licensed under MIT License
+
+---
+
+### Available translations
+[![🇺🇦 Українська версія](https://img.shields.io/badge/Документація-Українська-blue)](SECURITY_ua.md) [![Руская версия](https://img.shields.io/badge/Документация-Русская-red)](SECURITY_ru.md)
+
+---
