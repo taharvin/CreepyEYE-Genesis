@@ -32,6 +32,19 @@ check_messages = {
         "virustotal_check": "[🔍] VirusTotal check: {query}",
         "spiderfoot_check": "\n[🕷️] SpiderFoot check: {query}",
         "whois_check": "\n[🔍] Whois check: {query}",
+    },
+    "ru": {
+        "abuseipdb_check": "\n[🚨] Проверка AbuseIPDB для IP: {query}",
+        "emailrep_check" : "\n[🔍] Проверка EmailRep: {query}",
+        "greynoise_check": "\n[🚨] Проверка GreyNoise: {query}",
+        "ipinfo_check": "\n[🌐] Проверка IP: {query}",
+        "numverify_check": "\n[📞] Проверка номера телефона: {query}",
+        "hunter_check": "\n[📧] Проверка email через Hunter.io: {query}",
+        "username_search": "\n[🔍] Поиск по нику: {query}",
+        "shodan_check": "\n[🔍] Проверка Shodan: {query}",
+        "virustotal_check" : "\n[🔍] Проверка VirusTotal: {query}",
+        "spiderfoot_check": "\n[🕷️] Проверка SpiderFoot: {query}",
+        "whois_check": "\n[🔍] Проверка Whois: {query}",
     }
 }
 
@@ -47,6 +60,12 @@ status_messages = {
         "results_found": "[+] Found:",
         "no_results": "[-] No results found.",
         "tor_status_active": "[+] Tor routing enabled – connection anonymized"
+    },
+    "ru": {
+        "processing": "[~] Обработка запроса: {query}",
+        "results_found": "[+] Найдено:",
+        "no_results": "[-] Ничего не найдено.",
+        "tor_status_active": "[+] Tor включен — соединение зашифровано"
     }
 }
 
@@ -84,6 +103,23 @@ error_details = {
         "invalid_ip": "[!] Invalid IP address.",
         "invalid_domain": "[!] Invalid domain name.",
         "invalid_phone": "[!] Invalid phone number."
+    },
+    "ru": {
+        "key_error": "[!] Ключ {e} не найден в словаре",
+        "api_error": "[!] Ошибка API: {e}",
+        "error": "[!] Произошла ошибка {e}",
+        "json_error": "[!] Ошибка декодирования JSON ответа: {e}",
+        "empty_response": "[!] Сервер вернул пустой ответ.",
+        "request_timeout": "[!] Тайм-аут при запросе к {url}",
+        "request_error": "[!] Ошибка при запросе к {url}: {e}",
+        "found_and_status": "[!] Ресурс {name} найден по адресу {url} — статус: {res}",
+        "unsupported_request_method": "[!] Неподдерживаемый метод запроса",
+        "dependency_check_failed": "[!] Проверка зависимостей провалена! Установите недостающие модули или добавьте файл sf.py.",
+        "env_errors": "[!] Не удалось открыть файл .env: {e}",
+        "invalid_email": "[!] Неверный формат email.",
+        "invalid_ip": "[!] Неверный IP-адрес.",
+        "invalid_domain": "[!] Неверное имя домена.",
+        "invalid_phone": "[!] Неверный номер телефона."
     }
 }
 
@@ -108,6 +144,17 @@ warnings = {
         "missing_dependency": "[!] Module {module} is missing!",
         "ascii_warning": "[!] Unable to display results with non-ASCII characters. ASCII-only mode is being used.",
         "tor_inactive_warning": "[!] Tor connection error — standard network is being used"
+    
+    },
+    "ru": {
+    "ethical_use_warning": (
+        "[!] ВНИМАНИЕ — этот инструмент создан только для этических целей.\n",
+        "-> Разработчики не несут ответственности за ваши действия."
+    ),
+    "missing_module": "[!] Внимание — без '{module_name}' некоторые функции работать не будут.",
+    "missing_dependency": "[!] Модуль {module} отсутствует!",
+    "ascii_warning": "[!] Невозможно отобразить результаты с не-ASCII символами. Используется режим только ASCII.",
+    "tor_inactive_warning": "[!] Ошибка подключения Tor — используется стандартная сеть"
     }
 }
 
@@ -144,7 +191,23 @@ menu_details = {
         "tor_enabled": "[+] Tor is enabled!",
         "tor_ip": "[+] IP via Tor: {ip}",  
         "tor_not_running": "[-] Tor is not running. Start Tor (e.g., via Tor Browser or tor.exe)"
+    },
 
+    "ru": {
+        "press_any_key": "Нажмите любую клавишу для продолжения...",
+        "exit_message": "Выход из CreepyEYE. Пока!",
+        "incorrect_option": "[!] Неверная опция. Попробуйте ещё раз.",
+        "menu": "--- ГЛАВНОЕ МЕНЮ ---",
+        "choose_option": ">>> Выберите опцию: ",
+        "input_username": "Введите псевдоним: ",
+        "input_email": "Введите email: ",
+        "input_ip": "Введите IP: ",
+        "input_domain": "Введите домен: ",
+        "input_phone": "Введите номер телефона (в международном формате, например, +380XXXXXXXXX или +1XXXXXXXXXX): ",
+        "input_telegram_username": "Введите Telegram псевдоним (без @): ",
+        "tor_enabled": "[+] Tor включен!",
+        "tor_ip": "[+] IP через Tor: {ip}",
+        "tor_not_running": "[-] Tor не запущен. Запустите Tor (например, через Tor Browser или tor.exe)"
     }
 }
 
@@ -190,6 +253,27 @@ info_details = {
         "organization": "[+] Organization:",
         "os": "[+] OS:",
         "detections": "[+] Detections:",
+    },
+    "ru": {
+        "abuse_score": "[+] Уровень злоупотреблений:",
+        "last_report": "[+] Последнее сообщение:",
+        "reputation": "[+] Репутация:",
+        "suspicious": "[+] Подозрительный:",
+        "blacklist": "[+] В черном списке:",
+        "leaked_passwords": "[+] Слитые пароли:",
+        "activity": "[+] Активность:",
+        "domain_checked": "[+] Домен проверен:",
+        "classification": "[+] Классификация:",
+        "name": "[+] Название:",
+        "emails_found": "[+] Найденные email на домене {domain}:",
+        "ip_info": "[+] Информация об IP:",
+        "country": "[+] Страна:",
+        "location": "[+] Локация:",
+        "carrier": "[+] Оператор:",
+        "provider": "[+] Провайдер:",
+        "organization": "[+] Организация:",
+        "os": "[+] ОС:",
+        "detections": "[+] Обнаружения:",
     }
 }
 
@@ -218,6 +302,18 @@ menu = {
         "7. Start TOR 🔧",
         "8. Change language 🔄",
         "0. Exit ❌"
+    ],
+    "ru": [
+        "Выберите опцию:",
+        "1. Поиск по псевдониму/имени 🔍",
+        "2. Поиск по email 📧",
+        "3. Проверка IP 🌐",
+        "4. Проверка домена 🕵️",
+        "5. Проверка номера телефона 📱",
+        "6. Настройки API 🔧",
+        "7. Запустить TOR 🔧",
+        "8. Сменить язык 🔄",
+        "0. Выход ❌"
     ]
 }
 
@@ -231,7 +327,7 @@ settings_details = {
         "found_and_status": "[-] {name}: {url} - статус: {res}",
         "connection_error": "[-] {name}: Не вдалося підключитися до {url}",
         "env_file_created": "[+] Файл {env_path} створено!",
-        "env_file_exists": "ℹ️ Файл {env_path} вже існує.",
+        "env_file_exists": "[!] Файл {env_path} вже існує.",
         "api_key_not_found": "[!] {api_name} не знайдено в api_keys.env файлі!",
         "invalid_api_key": "[!] Невірний API ключ для {api_name} !",
         "too_many_attempts": "[!] Забагато невірних спроб. Вихід."
@@ -245,11 +341,24 @@ settings_details = {
         "found_and_status": "[-] {name}: {url} - status: {res}",
         "connection_error": "[-] {name}: Failed to connect to {url}",
         "env_file_created": "[+] File {env_path} created!",
-        "env_file_exists": "ℹ️ File {env_path} already exists.",
+        "env_file_exists": "[!] File {env_path} already exists.",
         "api_key_not_found": "[!] {api_name} not found in api_keys.env file!",
         "invalid_api_key": "[!] Invalid API key for {api_name} !",
         "too_many_attempts": "[!] Too many invalid attempts. Exiting."
-
+    },
+    "ru": {
+        "module_not_found": "[!] Модуль '{module_name}' не найден. Установить? (y/n): ",
+        "some_modules_missing": "[!] Некоторые модули отсутствуют. Хотите установить их автоматически? (y/n): ",
+        "install_requirements": "Пожалуйста, установите модули через 'pip install -r requirements.txt', затем перезапустите скрипт.",
+        "invalid_option": "[!] Некорректный ввод. Введите 'y' или 'n'.",
+        "missing_api_key": "[!] Переменная окружения '{name}' не найдена в .env файле!",
+        "found_and_status": "[-] {name}: {url} - статус: {res}",
+        "connection_error": "[-] {name}: Не удалось подключиться к {url}",
+        "env_file_created": "[+] Файл {env_path} создан!",
+        "env_file_exists": "[!] Файл {env_path} уже существует.",
+        "api_key_not_found": "[!] {api_name} не найден в файле api_keys.env!",
+        "invalid_api_key": "[!] Неверный API ключ для {api_name}!",
+        "too_many_attempts": "[!] Слишком много неверных попыток. Выход."
     }
 }
 
@@ -287,5 +396,21 @@ spiderfoot_details = {
         "start_error": "[!] Error starting Spiderfoot: {e}",
         "sf_script_found": "[+] sf.py found",
         "spiderfoot_check": "[~] Making request to Spiderfoot: {query}"
+    },
+    "ru": {
+        "start": "[🕷️] Запуск SpiderFoot для: {target}",
+        "start_error": "[!] Ошибка при запуске SpiderFoot: {e}",
+        "stop": "[!] SpiderFoot остановлен",
+        "stop_error": "[!] Ошибка при остановке SpiderFoot: {e}",
+        "not_running": "[!] SpiderFoot неактивен",
+        "already_running": "[!] SpiderFoot уже запущен",
+        "timeout_error": "[!] Время ожидания истекло при запросе к SpiderFoot",
+        "status": "[~] Статус SpiderFoot: {status}",
+        "request_error": "[!] Ошибка запроса к SpiderFoot: {e}",
+        "error": "[!] Ошибка SpiderFoot: {error}",
+        "process_not_found": "[!] Процесс SpiderFoot не найден или уже остановлен",
+        "missing_sf_script": "[!] Файл sf.py не найден! Проверьте, правильно ли установлен SpiderFoot.",
+        "sf_script_found": "[+] Файл sf.py найден",
+        "spiderfoot_check": "[~] Выполняется запрос к SpiderFoot: {query}"
     }
 }

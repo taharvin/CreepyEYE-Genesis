@@ -13,7 +13,7 @@ spiderfoot_process = None
 DEBUG = os.getenv("DEBUG", "false").lower() == "true"
 USE_TOR_PROXY = True  
 TOR_PROXY = "socks5h://127.0.0.1:9050"
-
+SUPPORTED_LANGS = {"uk", "en", "ru"}
 
 def setup_logging(level=logging.INFO):
     logging.basicConfig(

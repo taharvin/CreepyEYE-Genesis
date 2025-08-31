@@ -10,26 +10,27 @@ import logging, shutil, platform, os, locale, subprocess, sys, time
 from pathlib import Path
 from settings.translations import settings_details, error_details, menu_details
 from settings.install_if_missing import check_and_install
+from settings.config import SUPPORTED_LANGS
 
 def set_language(lang_code):
-    os.environ["LANGUAGE"] = lang_code if lang_code in ["uk", "en"] else "en"
+    os.environ["LANGUAGE"] = lang_code if lang_code in SUPPORTED_LANGS else "en"
 
 def get_system_language():
     try:
         lang, _ = locale.getdefaultlocale()
         if lang:
             lang_code = lang[:2].lower()
-            return lang_code if lang_code in ["uk", "en"] else "en"
-    except:
+            return lang_code if lang_code in SUPPORTED_LANGS else "en"
+    except (ValueError, TypeError):
         pass
     return "en"
 
 def init_language():
-    lang = os.environ.get("LANGUAGE")
-    if not lang:
-        lang = get_system_language()
-        set_language(lang)
-    return lang if lang in ["uk", "en"] else "en"
+    lang = os.environ.get("LANGUAGE") or get_system_language()
+    if lang not in SUPPORTED_LANGS:
+        lang = "en"
+    set_language(lang)
+    return lang
 
 try:
     from termcolor import colored
@@ -69,8 +70,9 @@ def ask_language_choice():
     print("🌐 Select language / Оберіть мову:")
     print("1. 🇺🇸 English")
     print("2. 🇺🇦 Українська")
+    print("3. 🇷🇺 Русский")
     choice = input("→ ")
-    return "uk" if choice == "2" else "en"
+    return "uk" if choice == "2" else "ru" if choice == "3" else "en"
 
 def log_warning_yellow(message: str):
     colored_msg = colored(message, "yellow")
